@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	max-width: 768px; 
+	margin: 0 auto;
+}
+.whole{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+.bg{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.bg img{
+	width: 100%;
+	height: 100%;
+}
+.head{
+    width: 100%;
+    height: 90px;
+    color: #fff;
+    line-height: 90px;
+}
+.head p{
+	font-size: 16px;
+}
+.main input{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 25px;
+    background: #ea4d75;
+    border: 0;
+    height: 47px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 53px;
+
+}
+.main{
+	position: absolute;
+    width: 100%;
+    max-width: 768px;
+    top: 50%;
+    margin-top: -25%;
+}
+.main .form-group{
+	position: relative;
+}
+.Photoicon{
+	width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 11px;
+    left: 54px;
+}
+.register{
+	width: 74%;
+    margin: 20px auto;
+}
+.register li{
+	width: 50%;
+    float: left;
+    color: #fff;
+}
+.btnlogin{
+	width: 100%;
+	margin: 0 auto;
+}
+.btnlogin .btn{
+	width: 80%;
+    height: 47px;
+    border-radius: 25px;
+    color: #fc7c92;
+    margin-top: 14px;
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+	color: #fff;
+}
